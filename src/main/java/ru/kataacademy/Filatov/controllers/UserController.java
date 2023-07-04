@@ -11,11 +11,11 @@ import ru.kataacademy.Filatov.services.UserService;
 
 @Controller
 @RequestMapping("/user")
-public class myController {
+public class UserController {
     private final UserService userService;
 
     @Autowired
-    public myController(UserService userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 
